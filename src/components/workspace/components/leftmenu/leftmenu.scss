@@ -1,0 +1,45 @@
+.leftMenu {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: 999;
+  background-color: #3399FF;
+  text-transform: uppercase;
+}
+.leftMenu i {
+  font-size: 18px;
+  opacity: 0.5;
+}
+.leftMenu span {
+  margin-left: 5px;
+}
+.leftMenu a {
+  color: #ffffff;
+}
+.leftMenu span {
+  display: inline-block;
+  color: #ffffff;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}
+.leftMenu span:after {
+  display: block;
+  content: "";
+  background-color: #ffffff;
+  height: 2px;
+  width: 0%;
+  left: 50%;
+  position: absolute;
+  -webkit-transition: width .2s ease-in-out;
+  -moz--transition: width .2s ease-in-out;
+  transition: width .2s ease-in-out;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.leftMenu span:hover:after,
+.leftMenu span:focus:after {
+  width: 100%;
+}

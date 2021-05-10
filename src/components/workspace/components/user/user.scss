@@ -1,0 +1,22 @@
+.rightMenu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 200px;
+  z-index: 999;
+  background-color: #3399FF;
+}
+.rightMenu span {
+  margin-left: 5px;
+}
+.rightMenu a {
+  color: #ffffff;
+}
+.rightMenu span {
+  display: inline-block;
+  color: #ffffff;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+}

@@ -1,0 +1,177 @@
+/*general*/
+.root, body, html {height: 100%;}
+li { list-style-type: none; }
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+input {
+    outline:none;
+    background-color: #ffffff;
+}
+
+canvas {
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 900;
+}
+
+.mg-t_50 { margin-top: 50px}
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+.font { font-family: 'Work Sans', sans-serif; }
+.font_12 { font-size: 12px; }
+.spacing_1 { letter-spacing: 1px;}
+
+/* header */
+.ws_header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #003366;
+}
+/* left menu */
+.ws_left {
+    position: relevant;
+    float: left;
+    width: 3%;
+    height: 100vh;
+    background-color: #333366;
+}
+
+.ws_left > ul {
+    margin-top: 75px;
+    color: #ffffff;
+}
+.ws_left > ul > li {
+    margin-top: 15px;
+}
+.ws_left > ul > li > img {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.ws_right {
+    position: relevant;
+    float: left;
+    width: 96%;
+    margin-top: 50px;
+    margin-left: 1%;
+}
+
+
+/*
+Schedule
+*/
+.sch {
+    position: relevant;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.sch_left {
+    position: relevant;
+    float: left;
+    width: 30%;
+}
+.sch_right {
+    position: relevant;
+    float: left;
+    width: 70%
+}
+.sch_h {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px solid #999999;
+}
+.sch_h > .sch_id {
+    width: 2%;
+    text-align: center;
+    margin: 0;
+    border-right: 1px solid #999999;
+}
+.sch_h > .sch_task {
+    width: 15%;
+    text-align: center;
+    margin: 0;
+    border-right: 1px solid #999999;
+}
+
+.cellBorder > p {
+    border-bottom: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+.txtCenter {
+    text-align: center;
+}
+.day {
+    position: relevant;
+    float: left;
+    min-width: 25px;
+    height: 25px;
+    text-align: center;
+    border-right: 1px solid #333333;
+}
+.task{
+    position: relevant;
+    float: left;
+}
+.buttom {
+    border: 1px solid #FF0000;
+}
+.buttom > .right {
+    position: absolute;
+    top: -5px;
+    right: -20px;
+    color: #FFFFFF;
+    cursor: ew-resize;
+    z-index: 999;
+    border: 1px solid #FF0000;
+    /*visibility: hidden;*/
+}
+/*
+.buttom:hover .right {
+position: absolute;
+cursor: ew-resize;
+top: -5px;
+right: -15px;
+color: #FFFFFF;
+visibility: visible;
+}
+*/
+/*
+Grid
+*/
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+.coll_1, .coll_2, .coll_3, .coll_4, .coll_5, .coll_10, .coll_15 {
+    margin: 0;
+}
+.coll_1 { width: 1%; }
+.coll_2 { width: 2%; }
+.coll_3 { width: 3%; }
+.coll_4 { width: 4%; }
+.coll_5 { width: 5%; }
+.coll_10 { width: 10%; }
+.coll_15 { width: 15%; }
+.coll_20 { width: 20%; }
+.coll_25 { width: 25%; }
+.coll_15 { width: 15%; }
+.coll_15 { width: 15%; }
+.coll_100 { width: 100%; }
+
+.important {color: #FF0000}
+.like {color: #333366}
+/*
+.app {
+    background-color: #FF0000;
+}
+ */
